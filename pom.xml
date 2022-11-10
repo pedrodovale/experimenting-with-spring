@@ -9,6 +9,7 @@
   <version>0.1-SNAPSHOT</version>
   <modules>
     <module>spring-events</module>
+    <module>spring-retry</module>
   </modules>
   <packaging>pom</packaging>
 
