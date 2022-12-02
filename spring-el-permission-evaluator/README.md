@@ -1,39 +1,5 @@
 # Spring Validation And Access
 
-[//]: # (TODO)
-
-- https://docs.spring.io/spring-security/reference/servlet/authorization/expression-based.html#el-permission-evaluator
-- https://www.baeldung.com/spring-security-create-new-custom-security-expression
-- https://segmentfault.com/a/1190000041728076/en
-
-## The Story
-
-[//]: # (TODO)
-
-## Development
-
-[//]: # (TODO)
-
-## How to test it
-
-[//]: # (TODO)
-
-add book:
-
-> curl http://localhost:8080/books --include --user alice:S3cr3t! \ \
-> --request POST \ \
-> --header "Content-Type: application/json" \ \
-> --data '{"title": "A Study in Scarlet"}'
-
-get book:
-
-> curl http://localhost:8080/books/51c799b9-e3ae-44b7-8f0e-c6c0d7bfc119 --include --user eve:S3cr3t!
-
-rent book:
-
-> curl http://localhost:8080/books/51c799b9-e3ae-44b7-8f0e-c6c0d7bfc119/rent --include --user bob:
-> S3cr3t!# Spring Expression Language Permission Evaluator
-
 Playing around with Spring Evaluation Language (SpEL) Permission Evaluator for custom expressions in the @PreAuthorize annotation.
 The code is divided in the following use cases:
 - A bookshelf and the ability to rent books from it;
