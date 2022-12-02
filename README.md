@@ -1,4 +1,4 @@
-[![Java CI with Maven](https://github.com/pedrodovale/experimenting-with-spring/actions/workflows/maven.yml/badge.svg?branch=gh-maven-action)](https://github.com/pedrodovale/experimenting-with-spring/actions/workflows/maven.yml)
+[![Java CI with Maven](https://github.com/pedrodovale/experimenting-with-spring/actions/workflows/maven.yml/badge.svg?branch=main)](https://github.com/pedrodovale/experimenting-with-spring/actions/workflows/maven.yml)
 
 # Experimenting with Spring
 
