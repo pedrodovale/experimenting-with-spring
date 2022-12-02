@@ -9,6 +9,7 @@
   <version>0.1-SNAPSHOT</version>
   <modules>
     <module>spring-events</module>
+    <module>spring-el-permission-evaluator</module>
   </modules>
   <packaging>pom</packaging>
 
