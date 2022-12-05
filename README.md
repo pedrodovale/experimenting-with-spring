@@ -6,5 +6,6 @@ Welcome to my playground for everything around Spring. This repository contains 
 module for each Spring feature that I test.
 
 ## Table of contents
-- [Events in Spring](spring-events/README.md);
+- [Events in Spring](spring-events/README.md) 
 - [SpEL permission evaluator](spring-el-permission-evaluator/README.md)
+- [Validation in Springboot](spring-validation/README.md)

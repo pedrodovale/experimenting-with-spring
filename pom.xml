@@ -10,6 +10,7 @@
   <modules>
     <module>spring-events</module>
     <module>spring-el-permission-evaluator</module>
+    <module>spring-validation</module>
   </modules>
   <packaging>pom</packaging>
 
