@@ -1,0 +1,20 @@
+spring:
+  cloud:
+    aws:
+      region:
+        static: eu-central-1
+      s3:
+        path-style-access-enabled: false
+
+com:
+  pedrodovale:
+    experimentingwith:
+      spring:
+        books:
+          bucket: books-123
+
+logging:
+  level:
+    io:
+      awspring:
+        cloud: debug
