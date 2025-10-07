@@ -10,6 +10,7 @@
     <modules>
         <module>spring-events</module>
         <module>spring-aws-s3</module>
+        <module>spring-ssl</module>
     </modules>
     <packaging>pom</packaging>
 
