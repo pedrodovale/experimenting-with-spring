@@ -1,9 +1,9 @@
 server:
   ssl:
-    key-store: /home/pvale/dev/code/Personal/experimenting-with-spring/spring-ssl/server-keystore.jks
+    key-store: classpath:server-keystore.jks
     key-store-password: changeit
     key-alias: serverleaf
     key-store-type: JKS
-    trust-store: /home/pvale/dev/code/Personal/experimenting-with-spring/spring-ssl/server-truststore.jks
+    trust-store: classpath:server-truststore.jks
     trust-store-password: changeit
     client-auth: need

@@ -4,10 +4,10 @@ spring:
       jks:
         book-server:
           truststore:
-            location: /home/pvale/dev/code/Personal/experimenting-with-spring/spring-ssl/client-truststore.jks
+            location: classpath:client-truststore.jks
             password: changeit
           keystore:
-            location: /home/pvale/dev/code/Personal/experimenting-with-spring/spring-ssl/client-keystore.jks
+            location: classpath:client-keystore.jks
             type: JKS
             password: changeit
           key:
